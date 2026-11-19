@@ -1,0 +1,210 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><title>Orange's Blossom</title><meta name="robots" content="noindex, nofollow"><meta name="description" content="Orange's Blossom baskılı tişörtler. Her baskıda bir anı."><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..800;1,6..96,400..700&family=Manrope:wght@400;600;800&display=swap">
+<style>
+/* Layout: vivid single-look brand site — color-blocked hero, product tiles each on its own saturated ground, marquee band, bold contact block */
+:root{
+  color-scheme:light;
+  --bg:#fff8f0; --ink:#1c1220; --muted:#5e5163;
+  --orange:#ff7a1a; --pink:#ff3d7f; --blue:#2c5cff; --yellow:#ffd23f; --wine:#8a1430; --green:#18b37e;
+  --display:"Bodoni Moda", "Didot", Georgia, serif;
+  --body:"Manrope", system-ui, -apple-system, sans-serif;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.in{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+nav .in{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding-block:18px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;letter-spacing:.18em;text-transform:uppercase;font-size:.95rem}
+.dot{width:14px;height:14px;border-radius:50%;background:var(--orange);box-shadow:8px 0 0 var(--pink),16px 0 0 var(--blue);margin-right:18px}
+.navlinks{display:flex;gap:18px;font-weight:600;font-size:.9rem}
+.navlinks a{text-decoration:none}
+.navlinks a:hover{color:var(--pink)}
+
+/* HERO */
+.hero{position:relative;overflow:hidden;background:var(--orange);color:#fff}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;filter:blur(10px)}
+.hero::before{width:520px;height:520px;background:var(--pink);right:-140px;top:-160px;opacity:.95}
+.hero::after{width:380px;height:380px;background:var(--yellow);left:-120px;bottom:-200px;opacity:.9}
+.hero .in{position:relative;z-index:1;display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center;padding-block:56px 64px}
+.hero .in>*{min-width:0}
+.eyebrow{font-size:.75rem;letter-spacing:.24em;text-transform:uppercase;font-weight:800}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(3rem,9vw,6.4rem);line-height:.95;margin:.25em 0 .3em;text-wrap:balance}
+h1 em{font-weight:500;color:var(--ink)}
+.lead{max-width:44ch;font-size:1.08rem;font-weight:600}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-block;padding:14px 26px;border-radius:999px;text-decoration:none;font-weight:800;font-size:.9rem;transition:transform .2s}
+.btn:hover{transform:translateY(-2px) rotate(-1deg)}
+.btn.dark{background:var(--ink);color:#fff}
+.btn.light{background:#fff;color:var(--ink)}
+.btn.blue{background:var(--blue);color:#fff}
+.mono{aspect-ratio:1;max-width:100%;width:100%;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:14px 14px 0 var(--blue)}
+.mono svg{width:76%;height:auto}
+
+/* MARQUEE */
+.band{background:var(--ink);color:var(--yellow);overflow:hidden;white-space:nowrap;padding-block:14px;font-family:var(--display);font-style:italic;font-size:1.5rem}
+.track{display:inline-block;animation:slide 26s linear infinite}
+.track span{margin:0 18px}
+.track b{color:var(--pink);font-style:normal}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* COLLECTION */
+section{padding-block:64px}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(2rem,5vw,3.2rem);line-height:1.05;margin:.2em 0 .3em;text-wrap:balance}
+.sub{color:var(--muted);max-width:56ch;margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:32px}
+.card{border-radius:24px;overflow:hidden;text-decoration:none;display:flex;flex-direction:column;background:#fff;box-shadow:0 2px 0 rgba(28,18,32,.08);transition:transform .25s}
+.card:hover{transform:translateY(-6px) rotate(-.6deg)}
+.art{aspect-ratio:1;max-width:100%;overflow:hidden}
+.art img{width:100%;height:100%;object-fit:cover;display:block}
+.meta{padding:16px 20px 20px;display:flex;justify-content:space-between;align-items:flex-end;gap:10px}
+.meta>div{min-width:0}
+.meta h3{font-family:var(--display);font-weight:700;font-size:1.4rem;margin:0;line-height:1.1}
+.meta p{margin:4px 0 0;color:var(--muted);font-size:.88rem}
+.price{flex:none;background:var(--ink);color:#fff;font-weight:800;border-radius:999px;padding:6px 12px;font-size:.85rem;font-variant-numeric:tabular-nums}
+
+/* STORY */
+.story{background:var(--blue);color:#fff;position:relative;overflow:hidden}
+.story::after{content:"";position:absolute;width:300px;height:300px;border-radius:50%;background:var(--green);right:-90px;bottom:-120px}
+.story .in{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.story .in>*{min-width:0}
+.story p{max-width:58ch}
+.label{background:#fff;color:var(--ink);border-radius:24px;padding:28px;align-self:start;box-shadow:10px 10px 0 var(--yellow)}
+.label dl{display:grid;grid-template-columns:auto 1fr;gap:10px 18px;margin:12px 0 0;font-size:.93rem}
+.label dt{color:var(--muted);text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;padding-top:3px;font-weight:800}
+.label dd{margin:0;font-weight:600}
+.tag{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;font-weight:800;color:var(--pink)}
+
+/* CONTACT */
+.contact{background:var(--pink);color:#fff}
+.contact .in{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.handle{font-family:var(--display);font-size:clamp(1.8rem,5vw,2.8rem);font-weight:800}
+footer .in{padding-block:24px 36px;color:var(--muted);font-size:.82rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+@media (max-width:860px){
+  .grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:640px){
+  .hero .in,.story .in{grid-template-columns:1fr}
+  .hero .in{padding-block:36px 48px}
+  .mono{max-width:300px;margin:0 auto}
+  .grid{grid-template-columns:1fr}
+  .hero::before{width:320px;height:320px;right:-120px;top:-120px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<nav><div class="in">
+  <a class="logo" href="#top"><span class="dot"></span>Orange's Blossom</a>
+  <div class="navlinks">
+    <a href="#koleksiyon">Koleksiyon</a>
+    <a href="#hikaye">Hikâye</a>
+    <a href="#iletisim">İletişim</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top"><div class="in">
+  <div>
+    <div class="eyebrow">Baskılı tişörtler · 250 TL</div>
+    <h1>Hayalini <em>giy.</em></h1>
+    <p class="lead">Kamp ateşi, gece hilali, Helenistik bir heykel, sabah kahvesi. Orange's Blossom her baskıda bir anı tişörte taşıyor.</p>
+    <div class="btns">
+      <a class="btn dark" href="https://www.shopier.com/orangesblossom" target="_blank" rel="noopener">Hemen alışveriş yap</a>
+      <a class="btn light" href="#koleksiyon">Koleksiyonu gör</a>
+    </div>
+  </div>
+  <div class="mono" aria-label="NT monogramı">
+    <svg viewBox="0 0 200 200" aria-hidden="true">
+      <g fill="none" stroke="#8a1430" stroke-linecap="square">
+        <path d="M48 150 V58 L128 150 V50" stroke-width="7"/>
+        <path d="M92 62 H160" stroke-width="5"/>
+        <path d="M126 62 V158" stroke-width="7"/>
+        <path d="M40 150 H62 M116 158 H138" stroke-width="3"/>
+      </g>
+      <text x="100" y="112" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="800" font-size="8" letter-spacing="4" fill="#1c1220">ORANGE'S BLOSSOM</text>
+    </svg>
+  </div>
+</div></header>
+
+<div class="band" aria-hidden="true"><div class="track">
+  <span>Dream</span><b>✦</b><span>Camp</span><b>✦</b><span>Fire</span><b>✦</b><span>Moon</span><b>✦</b><span>Helenistik</span><b>✦</b><span>Good Moments</span><b>✦</b>
+  <span>Dream</span><b>✦</b><span>Camp</span><b>✦</b><span>Fire</span><b>✦</b><span>Moon</span><b>✦</b><span>Helenistik</span><b>✦</b><span>Good Moments</span><b>✦</b>
+</div></div>
+
+<section id="koleksiyon"><div class="in">
+  <div class="tag">Koleksiyon</div>
+  <h2>Her tişört, bir renk, bir hikâye</h2>
+  <p class="sub">Tüm modeller Shopier mağazamızda. Bir ürüne dokunun, doğrudan satın alma sayfasına gidin.</p>
+  <div class="grid">
+
+    <a class="card" href="https://www.shopier.com/orangesblossom" target="_blank" rel="noopener">
+      <div class="art"><img src="img/helenistik.jpg" alt="Helenistik tişört" loading="lazy"></div>
+      <div class="meta"><div><h3>Helenistik</h3><p>Altın sarısı bir patlamanın içinde antik heykel.</p></div><span class="price">250 TL</span></div>
+    </a>
+
+    <a class="card" href="https://www.shopier.com/orangesblossom" target="_blank" rel="noopener">
+      <div class="art"><img src="img/camp.jpg" alt="Camp tişört" loading="lazy"></div>
+      <div class="meta"><div><h3>Camp</h3><p>Siyah üzerine kırmızı kamp baskısı, kolda küçük ateş.</p></div><span class="price">250 TL</span></div>
+    </a>
+
+    <a class="card" href="https://www.shopier.com/orangesblossom" target="_blank" rel="noopener">
+      <div class="art"><img src="img/fire.jpg" alt="Fire tişört" loading="lazy"></div>
+      <div class="meta"><div><h3>Fire</h3><p>Gece mavisi kadar sakin, eteğinde bir kamp ateşi.</p></div><span class="price">250 TL</span></div>
+    </a>
+
+    <a class="card" href="https://www.shopier.com/orangesblossom" target="_blank" rel="noopener">
+      <div class="art"><img src="img/moon.jpg" alt="Moon tişört" loading="lazy"></div>
+      <div class="meta"><div><h3>Moon</h3><p>Avuçta tutulan kırmızı bir hilal. Sırt baskılı.</p></div><span class="price">250 TL</span></div>
+    </a>
+
+    <a class="card" href="https://www.shopier.com/orangesblossom" target="_blank" rel="noopener">
+      <div class="art"><img src="img/coffee.jpg" alt="Good Moments tişört" loading="lazy"></div>
+      <div class="meta"><div><h3>Good Moments</h3><p>Kahve lekesi, iyi bir sabahın imzası.</p></div><span class="price">250 TL</span></div>
+    </a>
+
+    <a class="card" href="https://www.shopier.com/orangesblossom" target="_blank" rel="noopener">
+      <div class="art"><img src="img/dream.jpg" alt="Dream tişört" loading="lazy"></div>
+      <div class="meta"><div><h3>Dream</h3><p>Mavi ve mercan dumanından yükselen tek kelime.</p></div><span class="price">Shopier'de</span></div>
+    </a>
+
+  </div>
+</div></section>
+
+<section class="story" id="hikaye"><div class="in">
+  <div>
+    <div class="eyebrow" style="color:var(--yellow)">Hikâye</div>
+    <h2>Bir portakal çiçeği kadar canlı</h2>
+    <p>Orange's Blossom, sıradan bir tişörtü kişisel bir ifadeye dönüştürmek için kuruldu. Her baskı, gündelik bir anın içindeki duyguyu yakalar: bir hayal, bir kamp gecesi, bir fincan kahve.</p>
+    <p>NT monogramı her ürünün yakasındaki bordo dokuma etikette durur. Siparişler beyaz kutularda özenle hazırlanır.</p>
+  </div>
+  <div class="label" aria-label="Ürün bilgisi">
+    <div class="tag">Etiket bilgisi</div>
+    <dl>
+      <dt>Marka</dt><dd>Orange's Blossom · NT</dd>
+      <dt>Ürün</dt><dd>Baskılı tişört, unisex</dd>
+      <dt>Fiyat</dt><dd>250 TL</dd>
+      <dt>Modeller</dt><dd>Shopier'de 7 ürün</dd>
+      <dt>Ödeme</dt><dd>Shopier güvenli ödeme</dd>
+    </dl>
+  </div>
+</div></section>
+
+<section class="contact" id="iletisim"><div class="in">
+  <div>
+    <div class="eyebrow">Bize ulaşın</div>
+    <div class="handle">@_orangesblossom</div>
+    <p style="margin:4px 0 0;font-weight:600">Beden, sipariş ve iş birlikleri için Instagram'dan mesaj atın.</p>
+  </div>
+  <div class="btns" style="margin-top:0">
+    <a class="btn dark" href="https://www.instagram.com/_orangesblossom/" target="_blank" rel="noopener">Instagram</a>
+    <a class="btn light" href="https://www.shopier.com/orangesblossom" target="_blank" rel="noopener">Shopier mağazası</a>
+  </div>
+</div></section>
+
+<footer><div class="in">
+  <span>© 2026 Orange's Blossom</span>
+  <span>Giyim (Marka)</span>
+</div></footer>
+
+</body></html>
